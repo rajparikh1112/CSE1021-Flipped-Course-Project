@@ -2,73 +2,84 @@
 
 ## 1. Problem Statement
 
-For my project, I wanted to make a small ATM program using Python.
+In this project, I was planning to create a simple ATM simulation program using Python.
 
-The program starts by asking the user for a username and PIN. If the details are correct, the user can use the ATM menu. From there, they can check their balance, withdraw money, deposit money, change their PIN, or exit.
+The program begins by prompting the user to enter a username and a PIN. If valid information is provided, the user is granted access to the ATM menu. The ATM menu has options to view balance, withdraw cash, deposit cash, change PIN or exit.
 
-I made this project mainly to practice the Python topics I have learned and see how they work together in one program.
+I was mainly doing this project to test the Python lessons I have done out and see how they work together in one program.
 
 ## 2. Scope of the Project
 
-My project covers the basic functions of an ATM.
+It show the basic functionality of ATM.
 
 It includes:
 
 * Login using username and PIN
+
 * Different user accounts
+
 * Balance checking
+
 * Money withdrawal
+
 * Money deposit
+
 * PIN changing
+
 * Checking available balance before withdrawal
+
 * Basic input checking
+
 * Exit option
 
-Right now, everything runs in the terminal. The account details are stored in the Python file, so the changes are not saved after the program is closed.
+At present, the whole code is executed in the terminal. Account information is kept inside the Python file, thus, it will not be persisted when the program terminates.
 
 ## 3. Target Users
 
 This project can be used by:
 
 * Students learning Python
-* Beginners practicing basic Python
-* Students learning `if-else` and loops
-* Students practicing menu-based programs
-* Anyone who wants to try making a simple ATM program
 
-The accounts included in my program are only sample accounts for testing.
+* Beginners practicing basic Python
+
+* Students learning if-else and loops
+
+* Students practicing menu-based programs
+
+* If you'd like to attempt to write a simplified ATM application...
+
+My program contains all sample accounts, used for testing, in the accounts.
 
 ## 4. High-Level Features
 
-### User Login
+# User Login
 
-The user enters their username and PIN before accessing the ATM.
+The user enters the 1. Usr name 2. Pin before entering the ATM.
 
-### Check Balance
+# Check Balance
 
-The user can see the current amount in their account.
+This screen displays the user's current Account Balance.
 
-### Withdraw Money
+# Withdraw Money
 
-The user enters the amount they want to withdraw. The program checks whether they have enough balance.
+The user types in how much they want to withdraw. The program determines if they have that much money.
 
-### Deposit Money
+# Deposit Money
 
-The user can enter an amount to deposit, and the balance is updated.
+Input the amount to be deposited and press Deposit. The balance is updted.
 
-### Change PIN
+# Change PIN
 
-The user can change their PIN from the ATM menu.
+The user has the option to change their PIN using the ATM options.
 
-### Multiple Users
+# Multiple Users
 
-I have added three sample users with different PINs and balances.
+I've added three demo users all with various PINs and balances.
 
-### Input Checking
+# Input Checking
 
-The program handles some incorrect inputs, such as invalid menu choices and withdrawing more than the available balance.
+It manages some invalid inputs like the wrong menu option and more than a balance to withdraw.
 
-### Exit
+# Exit
 
-The user can choose option 5 when they want to close the program.
-
+The user will be able to select 5 when they would like to end the program.
