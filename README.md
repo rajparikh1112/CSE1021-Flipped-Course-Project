@@ -1,12 +1,10 @@
 # CSE1021-Flipped-Course-Project
 
+## Project Title
+
 # ATM Management System
 
-Project Title
-
-ATM Management System
-
-About the Project
+## About the Project
 
 I have created this ATM Management System using Python as a part of my Python Essentials / VITyarthi course project.
 
@@ -14,7 +12,7 @@ The plan was to create an ATM program that allows various users to log onto the 
 
 I have used three sample accounts so I can test the different options.
 
-Features
+## Features
 
 The program has these main features:
 
@@ -49,7 +47,7 @@ The program has these main features:
 
 These are just example accounts for testing the program.
 
-Technologies and Tools
+## Tecnologies and tools
 
 For making this project, I used:
 
@@ -71,7 +69,7 @@ How to Install and Run
 
 First, you will need to have Python 3 installed on your computer.
 
-To verify: $ in your terminal and press enter.
+To verify: instalation in your terminal and press enter.
 
 ``text id="m8nq3c"
 
@@ -89,21 +87,20 @@ Open the folder in VS Code.
 
 The Python file is:
 
-`text id="j1h5qk"
 
 CSEVITYARTHIPROJECTsem1.py
 
-`
+
 
 # 4. Run the Program
 
 Open up the terminal in the same directory and type:
 
-`text id="c2r7vx"
+
 
 python CSEVITYARTHIPROJECTsem1.py
 
-`
+
 
 The ATM program will start.
 
@@ -113,8 +110,6 @@ Enter a username and its PIN.
 
 For example:
 
-text id="a8x2pd"
-
 Username: Raj
 
 PIN: 121007
@@ -123,11 +118,9 @@ PIN: 121007
 
 At this point, the ATM menu will display if the information is accurate.
 
-ATM Menu
+## ATM Menu
 
 After login, the program shows:
-
-`text id="n0v7sy"
 
 ATM MENU
 
@@ -193,7 +186,6 @@ The screenshots can include:
 
 Project Files
 
-``text id="v5r8kc"
 
 ATM-Management-System/
 
@@ -204,7 +196,6 @@ README.md
 statement.md
 
 main.py
-``
 
 Author
 
