@@ -71,11 +71,10 @@ First, you will need to have Python 3 installed on your computer.
 
 To verify: instalation in your terminal and press enter.
 
-``text id="m8nq3c"
 
 python --version
 
-`
+
 
 # 2. Download the Project
 
@@ -114,7 +113,7 @@ Username: Raj
 
 PIN: 121007
 
-`
+
 
 At this point, the ATM menu will display if the information is accurate.
 
@@ -189,13 +188,13 @@ Project Files
 
 ATM-Management-System/
 
-CSEVITYARTHIPROJECTsem1.py
+* CSEVITYARTHIPROJECTsem1.py
 
-README.md
+* README.md
 
-statement.md
+* statement.md
 
-main.py
+* main.py
 
 Author
 
