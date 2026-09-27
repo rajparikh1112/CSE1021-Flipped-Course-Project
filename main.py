@@ -79,14 +79,3 @@ elif ch==5:                                            #ending program
     exit()
 else:
     print("invalid choice")
-
-
-
-
-
-
-
-
-    
-
-
