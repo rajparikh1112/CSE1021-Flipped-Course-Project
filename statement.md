@@ -52,34 +52,34 @@ My program contains all sample accounts, used for testing, in the accounts.
 
 ## 4. High-Level Features
 
-# User Login
+* User Login
 
 The user enters the 1. Usr name 2. Pin before entering the ATM.
 
-# Check Balance
+* Check Balance
 
 This screen displays the user's current Account Balance.
 
-# Withdraw Money
+* Withdraw Money
 
 The user types in how much they want to withdraw. The program determines if they have that much money.
 
-# Deposit Money
+* Deposit Money
 
 Input the amount to be deposited and press Deposit. The balance is updted.
 
-# Change PIN
+* Change PIN
 
 The user has the option to change their PIN using the ATM options.
 
-# Multiple Users
+* Multiple Users
 
 I've added three demo users all with various PINs and balances.
 
-# Input Checking
+* Input Checking
 
 It manages some invalid inputs like the wrong menu option and more than a balance to withdraw.
 
-# Exit
+* Exit
 
 The user will be able to select 5 when they would like to end the program.
