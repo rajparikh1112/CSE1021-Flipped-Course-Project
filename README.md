@@ -1,169 +1,219 @@
 # CSE1021-Flipped-Course-Project
+
 # ATM Management System
 
-## Project Title
+Project Title
 
-**ATM Management System**
+ATM Management System
 
-## About the Project
+About the Project
 
-I made this ATM Management System using Python for my **Python Essentials / VITyarthi course project**.
+I have created this ATM Management System using Python as a part of my Python Essentials / VITyarthi course project.
 
-The idea was to make a simple ATM program where different users can log in with their username and PIN. After logging in, they can check their balance, withdraw money, deposit money, change their PIN, or exit the program.
+The plan was to create an ATM program that allows various users to log onto the system with their username and PIN. Once they are logged in, the user can check their balance, withdraw funds, deposit funds, change their PIN, or logout of the system.
 
-I have used three sample accounts in the program so I can test the different options.
+I have used three sample accounts so I can test the different options.
 
-## Features
+Features
 
 The program has these main features:
 
 * Login with username and PIN
+
 * Check balance
+
 * Withdraw money
+
 * Deposit money
+
 * Change PIN
+
 * Check insufficient balance
+
 * Handle wrong menu choices
+
 * Three different user accounts
+
 * ATM menu
+
 * Exit option
 
-### Accounts Used for Testing
+# Accounts Used for Testing
 
-| Username |    PIN |  Balance |
+| Username | PIN | Balance |
+
 | -------- | -----: | -------: |
-| Raj      | 121007 | ₹150,000 |
-| Kritika  | 123456 | ₹120,000 |
-| Nidish   | 141926 | ₹900,000 |
+| Raj | 121007 | 150,000 |
+| Kritika | 123456 | 120,000 |
+| Nidish | 141926 | 900,000 |
 
-These are just sample accounts for testing the program.
+These are just example accounts for testing the program.
 
-## Technologies and Tools
+Technologies and Tools
 
 For making this project, I used:
 
 * Python 3
+
 * VS Code
+
 * Terminal
+
 * Git
+
 * GitHub
 
-I also used basic Python topics that I learned during the course, including variables, lists, input/output, conditions, loops, operators, type conversion, and menu-based programming.
+In addition to those points, I used some common Python topics that I learned in the class - variables, lists, input/output, conditions, loops, operators, type conversion, and menu-based programming.
 
-## How to Install and Run
+How to Install and Run
 
-### 1. Install Python
+# 1. Install Python
 
-First, Python 3 needs to be installed on the computer.
+First, you will need to have Python 3 installed on your computer.
 
-To check it, open the terminal and type:
+To verify: $ in your terminal and press enter.
 
-```text id="m8nq3c"
+``text id="m8nq3c"
+
 python --version
-```
 
-### 2. Download the Project
+`
 
-Download the project from GitHub and open the project folder.
+# 2. Download the Project
 
-### 3. Open the File
+Download the project from GitHub Open the project folder.
+
+# 3. Open the File
 
 Open the folder in VS Code.
 
 The Python file is:
 
-```text id="j1h5qk"
+`text id="j1h5qk"
+
 CSEVITYARTHIPROJECTsem1.py
-```
 
-### 4. Run the Program
+`
 
-Open the terminal in the same folder and enter:
+# 4. Run the Program
 
-```text id="c2r7vx"
+Open up the terminal in the same directory and type:
+
+`text id="c2r7vx"
+
 python CSEVITYARTHIPROJECTsem1.py
-```
+
+`
 
 The ATM program will start.
 
-### 5. Login
+# 5. Login
 
 Enter a username and its PIN.
 
 For example:
 
 text id="a8x2pd"
+
 Username: Raj
+
 PIN: 121007
-```
 
-If the details are correct, the ATM menu will open.
+`
 
-## ATM Menu
+At this point, the ATM menu will display if the information is accurate.
+
+ATM Menu
 
 After login, the program shows:
 
-```text id="n0v7sy"
-********ATM MENU********
+`text id="n0v7sy"
+
+ATM MENU
+
 select 1 to check balance
+
 select 2 to withdraw money
+
 select 3 to Deposite money
+
 select 4 to change PIN
+
 select 5 to EXIT
-```
 
-I can enter the number of the option I want to use.
+`
 
-## Testing
+I am able to put the number in of the option that I want to choose.
 
-I tested the program with different inputs to make sure the options were working.
+Testing
+
+I tested the program with a few different options to verify that they were functioning.
 
 For example:
 
-| What I tested              | What should happen                |
+| What I tested | What should happen |
+
 | -------------------------- | --------------------------------- |
-| Correct username           | PIN is asked                      |
-| Wrong username             | Invalid username is displayed     |
-| Correct PIN                | ATM menu opens                    |
-| Option `1`                 | Balance is displayed              |
-| Option `2`                 | Money can be withdrawn            |
-| Withdraw more than balance | Insufficient balance is displayed |
-| Option `3`                 | Money can be deposited            |
-| Invalid deposit            | Invalid input is displayed        |
-| Option `4`                 | PIN can be changed                |
-| Option `5`                 | Program closes                    |
-| Wrong menu number          | Invalid choice is displayed       |
 
-I also tested the program with Raj, Kritika, and Nidish to check the different accounts.
+| User1 | Yes | Is asked for the PIN |
+| Wrong username | Invalid username is showed |
 
-## Screenshots
+Pin_OK Correct The ATM Menu Is Opening
 
-I will add screenshots of the program here.
+1`1 | Show the balance |
+| Option 2 | Your money can be taken out |
+| Withdrawal on top of balance | Not enough funds to complete |
+3| Money can be deposited |
+| Deposit not valid | Invalid input appears |
+| Option 4 | PIN can be changed |
+| Option 5 | Program closes |
+| Incorrect menu number | Invalid choice appears |
+
+K. I also tried it with Raj, Kritika, and Nidish to view various accounts.
+
+Screenshots
+
+I will upload screenshots of the program below.
 
 The screenshots can include:
 
 * Login screen
+
 * ATM menu
+
 * Balance
+
 * Withdrawal
+
 * Deposit
+
 * PIN change
+
 * Exit message
 
-## Project Files
+Project Files
 
-```text id="v5r8kc"
+``text id="v5r8kc"
+
 ATM-Management-System/
-│
-├── CSEVITYARTHIPROJECTsem1.py
-└── README.md
-```
 
-## Author
+CSEVITYARTHIPROJECTsem1.py
 
-**Raj Parikh**
-**Registration No.: 26BCE10880**
-**1st Year, CSE Core**
-**VIT Bhopal University**
+README.md
 
-**Python Essentials / VITyarthi Course Project**
+statement.md
+
+main.py
+``
+
+Author
+
+Raj Parikh
+
+Registration No.: 26BCE10880
+
+1st Year, CSE Core
+
+VIT Bhopal University
+
+Python Essentials / VITyarthi Course Project
