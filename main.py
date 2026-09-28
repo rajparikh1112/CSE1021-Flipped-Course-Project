@@ -1,7 +1,7 @@
 #CSE1021 VITyarthi Flipped course Project
 # ATM Managemet System
 #Source code
-usernames = ["Raj", "Kritika", "Nidish"]
+usernames = ["Raj", "Anmol", "Nidish"]
 
 username1="Raj"
 PIN1=121007
@@ -17,7 +17,7 @@ balance3=900000
 
 Username=input("Enter username: ") #taking input
 
-usernames = ["Raj", "Kritika", "Nidish"]
+usernames = ["Raj", "Anmol", "Nidish"]
 pin=[121007,123456,141926]
 
 if Username not in usernames:
