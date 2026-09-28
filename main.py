@@ -46,36 +46,40 @@ print('select 3 to Deposite money')
 print('select 4 to change PIN')
 print('select 5 to EXIT')
 
-ch=int(input('enter choice:'))
+ch=0
 
-if ch==1:                                     #balance showing
-    print('Current balance:',balance)
+while ch != 5:
 
-elif ch==2:                                            #taking out money
-    wm=float(input('Enter amount to withdraw: '))
-    nb=balance-wm                                     
-    if nb>0:                                            # verify input
-        print("money succesfuly withdrawed",wm)
-        print('Remaining balance',nb)
+    ch=int(input('enter choice:'))
+    
+    if ch==1:                                     #balance showing
+        print('Current balance:',balance)
+    
+    elif ch==2:                                            #taking out money
+        wm=float(input('Enter amount to withdraw: '))
+        nb=balance-wm                                     
+        if nb>0:                                            # verify input
+            print("money succesfuly withdrawed",wm)
+            print('Remaining balance',nb)
+        else:
+            print('Insufficent Balance')
+    
+    elif ch==3:                                            #money added
+        dp=float(input('Enter amount to deposite:'))
+        if dp>0:                                            #verify input
+            nb1=balance+dp
+            print(dp,'money succesfully deposited')
+            print('New balance',nb1)
+        else:
+            print('invalid input')
+    
+    elif ch==4:                                            #change pin
+        new_PIN=int(input("Enter new PIN: "))
+        PIN=new_PIN
+        print("PIN is succesfully changed")
+    
+    elif ch==5:                                            #ending program
+        print("Thanks for using machine")
+        exit()
     else:
-        print('Insufficent Balance')
-
-elif ch==3:                                            #money added
-    dp=float(input('Enter amount to deposite:'))
-    if dp>0:                                            #verify input
-        nb1=balance+dp
-        print(dp,'money succesfully deposited')
-        print('New balance',nb1)
-    else:
-        print('invalid input')
-
-elif ch==4:                                            #change pin
-    new_PIN=int(input("Enter new PIN: "))
-    PIN=new_PIN
-    print("PIN is succesfully changed")
-
-elif ch==5:                                            #ending program
-    print("Thanks for using machine")
-    exit()
-else:
-    print("invalid choice")
+        print("invalid choice")
