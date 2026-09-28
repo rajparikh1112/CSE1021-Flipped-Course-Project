@@ -1,6 +1,6 @@
-# VTYARTHI Flipped cource project
-#               ATM Management System
-# Source code
+#CSE1021 VITyarthi Flipped course Project
+# ATM Managemet System
+#Source code
 usernames = ["Raj", "Kritika", "Nidish"]
 
 username1="Raj"
@@ -18,13 +18,17 @@ balance3=900000
 Username=input("Enter username: ") #taking input
 
 usernames = ["Raj", "Kritika", "Nidish"]
+pin=[121007,123456,141926]
 
 if Username not in usernames:
     print("Invalid Username")
     exit()
-    
 PIN=int(input("Enter PIN:"))
 
+if PIN not in pin:
+    print("invalid pin")
+    exit()
+    
 if Username==username1:  #shifting into diffrent user
     PIN=PIN1
     balance=balance1
@@ -82,4 +86,8 @@ while ch != 5:
         print("Thanks for using machine")
         exit()
     else:
-        print("invalid choice")
+        print('invalid choice')
+
+
+    
+
