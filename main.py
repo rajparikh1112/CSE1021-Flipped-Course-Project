@@ -7,7 +7,7 @@ username1="Raj"
 PIN1=121007
 balance1=150000
 
-username2="Kritika"
+username2="Anmol"
 PIN2=123456
 balance2=120000
 
